@@ -1,0 +1,108 @@
+.multiple-column{
+  margin: 100px 0;
+}
+.multiple-column .grid{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.multiple-column .grid__item{
+  width: 33.33%;
+  max-width: 33.33%;
+  padding: 0;
+}
+.multiple-column .multiple-column-text{
+  padding: 30px;
+  background: #fff17a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.multiple-column .left-block .multiple-column-text{
+  order: -1;
+}
+.multiple-column .multiple-column-item-long{
+  width: 66.66%;
+  max-width: 66.66%;
+}
+.img-box{
+  vertical-align: top;
+  position: relative;
+  padding-top: 100%;
+  min-height: 100%;
+}
+.img-box img{
+  max-width: 100%;
+  vertical-align: top;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.multiple-column-info{
+  text-align: center;
+}
+.multiple-column-info img{
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+}
+.multiple-column-info h3{
+  font-size: 26px;
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+.multiple-column-item-long .img-box{
+  padding-top: 50%;
+}
+.button{
+  text-transform: capitalize;
+  border: none;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.button:hover{
+  background: #fff;
+  color: #000;
+}
+@media screen and (max-width: 1199px){
+  .multiple-column-info h3{
+    font-size: 22px;
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 1024px){
+  .multiple-column .grid__item:nth-child(3){
+    display: none;
+  }
+  .multiple-column .multiple-column-item-long, .multiple-column .grid__item{
+    width: 50%;
+    max-width: 50%;
+  }
+  .multiple-column-item-long .img-box{
+  	padding-top: 100%;
+  }
+}
+@media screen and (max-width: 749px){
+  .multiple-column .grid__item:not(.multiple-column-text){
+    display: none;
+  }
+  .multiple-column .multiple-column-item-long, .multiple-column .grid__item{
+    width: 100%;
+    max-width: 100%;
+  }
+  .multiple-column-text{
+  	border: 1px solid #fff;
+  }
+}

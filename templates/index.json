@@ -1,119 +1,42 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "1639670634570187b5": {
+      "type": "multiple-column",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "d4e7f458-9dee-42f7-a183-ed2481aeea61": {
+          "type": "image",
           "settings": {
-            "heading": "Talk about your brand"
+            "long_img": "shopify:\/\/shop_images\/pexels-magda-ehlers-1189261.jpg",
+            "text_layout": "right",
+            "icon_img": "shopify:\/\/shop_images\/cocktail_1.png",
+            "heading": "The heritage gift",
+            "subtext": "<p>With over fifteen years of beverage driven curiosity, Andrew has been exploring and creating cocktails from the Balearic Islands to London and eventually landing in Vancouver, BC where the West Coast cocktail culture was flourishing.<\/p>",
+            "button": "shop now",
+            "button_link": "shopify:\/\/collections"
           }
         },
-        "button": {
-          "type": "buttons",
+        "a9fae80f-13ce-457c-a3bb-fb677e2e02d9": {
+          "type": "Image",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_label_2": ""
+            "textlayout": "left",
+            "iconimg": "shopify:\/\/shop_images\/cocktail.png",
+            "title": "The heritage gift",
+            "sub_text": "<p>With over fifteen years of beverage driven curiosity, Andrew has been exploring and creating cocktails from the Balearic Islands to London and eventually landing in Vancouver, BC where the West Coast cocktail culture was flourishing.<\/p>",
+            "btn": "shop now",
+            "btn_link": "shopify:\/\/collections",
+            "image_one": "shopify:\/\/shop_images\/pexels-isabella-mendes-338713.jpg",
+            "image_two": "shopify:\/\/shop_images\/pexels-evg-culture-1187766.jpg"
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
-      ],
-      "settings": {
-        "desktop_text_box_position": "flex-end"
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {}
-        },
-        "text": {
-          "type": "text",
-          "settings": {}
-        },
-        "button": {
-          "type": "button",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {}
-    },
-    "featured_products": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "collection": "all",
-        "image_ratio": "square"
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "video": {
-          "type": "video",
-          "settings": {}
-        },
-        "product": {
-          "type": "product",
-          "settings": {}
-        },
-        "collection": {
-          "type": "collection",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "video",
-        "product",
-        "collection"
-      ],
-      "settings": {}
-    },
-    "video": {
-      "type": "video",
-      "settings": {}
-    },
-    "multi_column": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {}
-        },
-        "column2": {
-          "type": "column",
-          "settings": {}
-        },
-        "column3": {
-          "type": "column",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
+        "d4e7f458-9dee-42f7-a183-ed2481aeea61",
+        "a9fae80f-13ce-457c-a3bb-fb677e2e02d9"
       ],
       "settings": {}
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
-    "featured_products",
-    "collage",
-    "video",
-    "multi_column"
+    "1639670634570187b5"
   ]
 }
